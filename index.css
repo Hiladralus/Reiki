@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    text-align: left;
+    margin: 20px;
+    position: absolute;
+    
+}
+
+
+.menu {
+    text-align: right;
+    padding: 3rem;
+    font-size: 2rem;
+}
+
+a {
+    margin: 20px;
+    color: rgb(30, 180, 50);
+    text-decoration: none;
+    
+    
+}
+
+a :hover{
+    transition: 
+}
+
+.carrusel {
+    text-align: center;
+}
+
+
+body {
+    margin: auto;
+    max-width: fit-content;
+}
+
+.highlight {                          /* width y el porcentaje ajustan las imagenes de tamaño*/
+    display: flow-root;               /* float + la clase ponen el texto junto*/
+
+}
+
+.highlight .left {
+    width: 50%;
+    float: left;
+}
+
+.highlight .right {
+    width: 50%;
+    float: right;
+}
+
+.highlight:hover .picture1-text  {
+    opacity: 0.5;
+    
+}
+
+.picture1-text{
+    position: absolute;
+    height: 73.6%;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: whitesmoke;
+    padding: auto;
+}
+
+.text {
+    color: antiquewhite;
+   /* font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}*/
